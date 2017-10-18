@@ -1,0 +1,30 @@
+{
+  "name": "pathtrim",
+  "version": "1.0.0",
+  "description": "Trim paths based on a polygon",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephg/pathtrim.git"
+  },
+  "keywords": [
+    "line",
+    "polygon",
+    "path"
+  ],
+  "author": "Joseph Gentle <me@josephg.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephg/pathtrim/issues"
+  },
+  "homepage": "https://github.com/josephg/pathtrim#readme",
+  "dependencies": {
+    "paths-to-pslg": "^1.1.0",
+    "pathtrim-pslg": "^1.1.0",
+    "poly-to-pslg": "^1.0.1",
+    "pslg-to-paths": "^1.0.0"
+  }
+}
